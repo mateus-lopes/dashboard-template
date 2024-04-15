@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.footer-container {
+    @apply absolute right-9 bottom-4 text-sm;
+}
