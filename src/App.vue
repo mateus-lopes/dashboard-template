@@ -28,8 +28,9 @@
     </v-navigation-drawer>
     <v-main class="bg-grey-lighten-5 pr-6">
         <v-app-bar 
-          scroll-behavior="elevate"
-          class="my-4 bg-transparent"
+          scroll-behavior="hide"
+          class="my-4 bg-grey-lighten-5"
+          :elevation="0"
         >
           <v-btn class="d-lg-none" icon @click.stop="drawer = !drawer">
             <v-icon>mdi-menu</v-icon>
